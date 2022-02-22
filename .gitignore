@@ -1,0 +1,13 @@
+Front-End\\nextjs-argon-dashboard-master\\.next/
+Front-End\\nextjs-argon-dashboard-master\\node_modules/
+settings/Mainnet.toml
+settings/Testnet.toml
+history.txt
+Front-End/nextjs-argon-dashboard-master/.next/
+Front-End\nextjs-argon-dashboard-master\.next\
+Front-End\nextjs-argon-dashboard-master\.next
+/build
+/node_modules
+package-lock.json
+/build
+/.next

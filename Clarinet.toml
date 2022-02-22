@@ -1,0 +1,32 @@
+[project]
+name = "Amortize-RealEstate"
+requirements = []
+costs_version = 1
+[contracts.Amortize-V1]
+path = "contracts/Amortize-V1.clar"
+depends_on = []
+
+[contracts.btc-lock]
+path = "contracts/btc-lock.clar"
+depends_on = ["nft-minting"]
+
+[contracts.equity-multi-claim]
+path = "contracts/equity-multi-claim.clar"
+depends_on = ["btc-lock", "nft-minting"]
+
+[contracts.math]
+path = "contracts/math.clar"
+depends_on = []
+
+[contracts.math-2]
+path = "contracts/math-2.clar"
+depends_on = []
+
+[contracts.nft-math]
+path = "contracts/nft-math.clar"
+depends_on = []
+
+[contracts.nft-minting]
+path = "contracts/nft-minting.clar"
+depends_on = []
+
